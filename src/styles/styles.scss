@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@use 'angular-material';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body { height: 100%; }
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.mat-mdc-form-field{
+    @apply w-full;
+}
+.mat-mdc-header-row{
+    text-transform: uppercase;
+    font-weight: bold !important;
+
+    .mat-mdc-header-cell{
+        @apply text-gray-500;
+    }
+}
+
